@@ -1,0 +1,354 @@
+[
+  {
+  "categoryName":"Капкейки",
+  "categoryId": 6,
+  "categorySettings": "cupcakesSettings",
+  "galleryPath": "./gallery__desert.html?sortByTag=Капкейки",
+  "products": [
+    {
+      "id": 61,
+      "name": "Капкейки",
+      "description":"Сочный бисквит, нежный крем на основе сливочного сыра различных цветов, украшеный на любой вкус.",
+      "thumb":"img/Cupcakes/Cupcakes1.jpg",
+      "href":"#modal__review-cupcakes",
+      "tagList":[],
+      "overview":[
+        {
+          "id": 611,
+          "thumb": "img/Cupcakes/Cupcakes2.jpg"
+        },
+        {
+          "id": 612,
+          "thumb": "img/Cupcakes/Cupcakes3.jpg"
+        },
+        {
+          "id": 613,
+          "thumb": "img/Cupcakes/Cupcakes4.jpg"
+        },
+        {
+          "id": 614,
+          "thumb": "img/Cupcakes/Cupcakes5.jpg"
+        },
+        {
+          "id": 615,
+          "thumb": "img/Cupcakes/Cupcakes6.jpg"
+        },
+        {
+          "id": 616,
+          "thumb": "img/Cupcakes/Cupcakes7.jpg"
+        },
+        {
+          "id": 617,
+          "thumb": "img/Cupcakes/Cupcakes8.jpg"
+        },
+        {
+          "id": 618,
+          "thumb": "img/Cupcakes/Cupcakes9.jpg"
+        },
+        {
+          "id": 619,
+          "thumb": "img/Cupcakes/Cupcakes10.jpg"
+        },
+        {
+          "id": 6110,
+          "thumb": "img/Cupcakes/Cupcakes11.jpg"
+        },
+        {
+          "id": 6111,
+          "thumb": "img/Cupcakes/Cupcakes12.jpg"
+        },
+        {
+          "id": 6112,
+          "thumb": "img/Cupcakes/Cupcakes13.jpg"
+        },
+        {
+          "id": 6113,
+          "thumb": "img/Cupcakes/Cupcakes14.jpg"
+        },
+        {
+          "id": 6114,
+          "thumb": "img/Cupcakes/Cupcakes15.jpg"
+        },
+        {
+          "id": 6115,
+          "thumb": "img/Cupcakes/Cupcakes16.jpg"
+        },
+        {
+          "id": 6116,
+          "thumb": "img/Cupcakes/Cupcakes17.jpg"
+        }
+      ]
+    }
+  ]
+},
+  {
+    "categoryName": "Зефир",
+    "categoryId": 3,
+    "categorySettings": "zephyrSettings",
+    "galleryPath": "./gallery__desert.html?sortByTag=Зефир",
+    "products":[
+      {
+        "id": 31,
+        "name": "Зефир",
+        "description":"Нежный домашний зефир на основе ягодного и фруктового пюре.",
+        "thumb":"img/Zephyr/Zephyr1.jpg",
+        "href":"#modal__review-zephyr",
+        "tagList":[],
+        "overview":[
+          {
+            "id": 311,
+            "thumb": "img/Zephyr/Zephyr2.jpg"
+          },
+          {
+            "id": 312,
+            "thumb": "img/Zephyr/Zephyr3.jpg"
+          },
+          {
+            "id": 313,
+            "thumb": "img/Zephyr/Zephyr4.jpg"
+          },
+          {
+            "id": 314,
+            "thumb": "img/Zephyr/Zephyr5.jpg"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "categoryName": "Пряники",
+    "categoryId": 8,
+    "categorySettings": "gingerbreadSettings",
+    "galleryPath": "#./gallery__gingerbread?sortByTag=ДляДетей",
+    "products":[
+      {
+        "id": 81,
+        "name": "Пряники",
+        "description": "Высококачественные, высоковкусные пряники",
+        "thumb": "img/Gingerbread/For_children/For_children1.jpg",
+        "href": "#modal__review-gingerbread",
+        "tagList": [],
+        "overview":[
+          {
+            "id": 811,
+            "thumb": "img/Gingerbread/4woman/type1.jpg"
+          },
+          {
+            "id": 812,
+            "thumb": "img/Gingerbread/Gingerbreads_corporeal/type1.jpg"
+          },
+          {
+            "id": 813,
+            "thumb": "img/Gingerbread/Heroes_characters/heroBread5.jpg"
+          },
+          {
+            "id": 814,
+            "thumb": "img/Gingerbread/New_Year/New_Year1.jpg"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "categoryName": "Кейкпопсы",
+    "categoryId": 2,
+    "categorySettings": "cakepopsSettings",
+    "galleryPath": "./gallery__desert.html?sortByTag=Кейкпопсы",
+    "products":[
+      {
+        "id": 21,
+        "name":"Кейкпопсы",
+        "description":"Бисквитный шарик в шоколадной глазури, украшенный кондитерской посыпкой.",
+        "thumb": "img/Cakepops/cakepops1.jpg",
+        "href":"#modal__review-cakepops",
+        "tagList":[],
+        "overview":[
+          {
+            "id": 211,
+            "thumb": "img/Cakepops/cakepops2.jpg"
+          },
+          {
+            "id": 212,
+            "thumb": "img/Cakepops/cakepops3.jpg"
+          },
+          {
+            "id": 213,
+            "thumb": "img/Cakepops/cakepops4.jpg"
+          },
+          {
+            "id": 214,
+            "thumb": "img/Cakepops/cakepops5.jpg"
+          },
+          {
+            "id": 215,
+            "thumb": "img/Cakepops/cakepops6.jpg"
+          },
+          {
+            "id": 216,
+            "thumb": "img/Cakepops/cakepops7.jpg"
+          },
+          {
+            "id": 217,
+            "thumb": "img/Cakepops/cakepops8.jpg"
+          },
+          {
+            "id": 218,
+            "thumb": "img/Cakepops/cakepops9.jpg"
+          },
+          {
+            "id": 219,
+            "thumb": "img/Cakepops/cakepops10.jpg"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "categoryName" : "Мармелад",
+    "categoryId" : 4,
+    "categorySettings": "marmaladeSettings",
+    "galleryPath" : "./gallery__dessert.html?sortByTag=Мармелад",
+    "products" : [
+      {
+        "id" : 41,
+        "name" : "Мармелад",
+        "description" : "Сочный, в меру сладкий, ягодный и фруктовый мармелад на основе натурального сока.",
+        "thumb" : "img/Marmalade/Marmalade1.jpg",
+        "href" : "#modal__review-marmalade",
+        "tagList" : [],
+        "overview":[
+          {
+            "id": 411,
+            "thumb": "img/Marmalade/Marmalade2.jpg"
+          },
+          {
+            "id": 412,
+            "thumb": "img/Marmalade/Marmalade3.jpg"
+          },
+          {
+            "id": 413,
+            "thumb": "img/Marmalade/Marmalade2.jpg"
+          },
+          {
+            "id": 414,
+            "thumb": "img/Marmalade/Marmalade1.jpg"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "categoryName": "Леденцы",
+    "categoryId": 9,
+    "categorySettings": "lollipopsSettings",
+    "galleryPath": "./gallery__gingerbread.html?sortByTag=Леденцы",
+    "products":[
+      {
+        "id": 91,
+        "name": "Леденцы",
+        "description": "Прозрачная конфета на палочке любого цвета и размера, украшенная кондитерской посыпкой или дополненная картинкой.",
+        "thumb": "img/Lollipops/type9.jpg",
+        "href": "#modal__review-lollipop",
+        "tagList": [],
+        "overview":[
+          {
+            "id": 911,
+            "thumb": "img/Lollipops/type2.jpg"
+          },
+          {
+            "id": 912,
+            "thumb": "img/Lollipops/type3.jpg"
+          },
+          {
+            "id": 913,
+            "thumb": "img/Lollipops/type4.jpg"
+          },
+          {
+            "id": 914,
+            "thumb": "img/Lollipops/type5.jpg"
+          },
+          {
+            "id": 915,
+            "thumb": "img/Lollipops/type6.jpg"
+          },
+          {
+            "id": 916,
+            "thumb": "img/Lollipops/type7.jpg"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "categoryName":"Трайфлы",
+    "categoryId": 5,
+    "categorySettings": "trifleySettings",
+    "galleryPath": "./gallery__desert.html?sortByTag=Трайфлы",
+    "products": [
+      {
+        "id": 51,
+        "name": "Трайфлы",
+        "description":"Изящная миниатюра любимого торта, порционный десерт в стаканчике.",
+        "thumb":"img/Trifley/Trifley1.jpg",
+        "href":"#modal__review-trifley",
+        "tagList":[],
+        "overview":[
+          {
+            "id": 511,
+            "thumb": "img/Trifley/Trifley2.jpg"
+          },
+          {
+            "id": 512,
+            "thumb": "img/Trifley/Trifley3.jpg"
+          },
+          {
+            "id": 513,
+            "thumb": "img/Trifley/Trifley4.jpg"
+          },
+          {
+            "id": 514,
+            "thumb": "img/Trifley/Trifley5.jpg"
+          },
+          {
+            "id": 515,
+            "thumb": "img/Trifley/Trifley6.jpg"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "categoryName" : "Маршмеллоу",
+    "categoryId" : 7,
+    "categorySettings": "marshmalloySettings",
+    "galleryPath" : "./gallery__dessert.html?sortByTag=Маршмеллоу",
+    "products" : [
+      {
+        "id": 71,
+        "name": "Маршмеллоу",
+        "description": "Нежные жевательные конфеты-суфле- маршмелоу, на основе натурального ягодного и фруктового пюре.",
+        "thumb": "img/Marshmalloy/type1.jpg",
+        "href" : "#modal__review-marshmalloy",
+        "tagList": [],
+        "overview":[
+          {
+            "id": 711,
+            "thumb": "img/Marshmalloy/type2.jpg"
+          },
+          {
+            "id": 712,
+            "thumb": "img/Marshmalloy/type1.jpg"
+          },
+          {
+            "id": 713,
+            "thumb": "img/Marshmalloy/type2.jpg"
+          },
+          {
+            "id": 714,
+            "thumb": "img/Marshmalloy/type1.jpg"
+          }
+        ]
+      }
+    ]
+  }
+]

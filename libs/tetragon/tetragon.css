@@ -1,0 +1,152 @@
+.tetragon__wrapper {
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  min-height: 30px;
+  padding-bottom: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.tetragon__content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    height: 100%;
+    background-color: #c7d1ff;
+    //background-image: url(../../img/pre-loader.gif);
+    background-position: top;
+    background-position-y: -50px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.tetragon__description{
+    background: palevioletred;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding: 15px;
+}
+
+.tetragon-1,.tetragon-sm-1,
+.tetragon-md-1,.tetragon-lg-1{
+    flex: 0 0 8.3333%;
+    max-width: 8.3333%!important;
+}
+
+.tetragon-1,.tetragon-sm-2,
+.tetragon-md-2,.tetragon-lg-2{
+    flex: 0 0 16.6666%;
+    max-width: 16.6666%!important;
+}
+
+.tetragon-3,.tetragon-sm-3,
+.tetragon-md-3,.tetragon-lg-3{
+    flex: 0 0 24.9999%;
+    max-width: 24.9999%!important;
+}
+
+.tetragon-4,.tetragon-sm-4,
+.tetragon-md-4,.tetragon-lg-4{
+    flex: 0 0 33.3333%;
+    max-width: 33.3333%!important;
+}
+
+.tetragon-5,.tetragon-sm-5,
+.tetragon-md-5,.tetragon-lg-5{
+    flex: 0 0 41.6666%;
+    max-width: 41.6666%!important;
+}
+
+.tetragon-6,.tetragon-sm-6,
+.tetragon-md-6,.tetragon-lg-6{
+    flex: 0 0 49.9999%;
+    max-width: 49.9999%!important;
+}
+
+.tetragon-7,.tetragon-sm-7,
+.tetragon-md-7,.tetragon-lg-7{
+    flex: 0 0 58.3333%;
+    max-width: 58.3333%!important;
+}
+
+.tetragon.eq-8,.tetragon.eq-sm-8,
+.tetragon.eq-md-8,.tetragon.eq-lg-8{
+    flex: 0 0 66.6666%;
+    max-width: 66.6666%!important;
+}
+
+.tetragon-9,.tetragon-sm-9,
+.tetragon-md-9,.tetragon-lg-9{
+    flex: 0 0 74.9999%;
+    max-width: 74.9999%!important;
+}
+
+.tetragon-10,.tetragon-sm-10,
+.tetragon-md-10,.tetragon-lg-10{
+    flex: 0 0 83.3333%;
+    max-width: 83.3333%!important;
+}
+
+.tetragon-11,.tetragon-sm-11,
+.tetragon-md-11,.tetragon-lg-11{
+    flex: 0 0 91.6666%;
+    max-width: 91.6666%!important;
+}
+
+.tetragon-12,.tetragon-sm-12,
+.tetragon-md-12,.tetragon-lg-12{
+    flex: 0 0 100%;
+    max-width: 100%!important;
+}
+
+@media (max-width: 576px) {
+  .tetragon-sm-1,.tetragon-sm-2,.tetragon-sm-3,
+  .tetragon-sm-4,.tetragon-sm-5,.tetragon-sm-6,
+  .tetragon-sm-7,.tetragon-sm-8,.tetragon-sm-9,
+  .tetragon-sm-10,.tetragon-sm-11,.tetragon-sm-12{
+    width: 100% !important;
+    flex: 0 0 100%;
+    max-width: 100%!important;
+  }
+}
+
+@media (max-width: 768px) {
+  .tetragon-md-1,.tetragon-md-2,.tetragon-md-3,
+  .tetragon-md-4,.tetragon-md-5,.tetragon-md-6,
+  .tetragon-md-7,.tetragon-md-8,.tetragon-md-9,
+  .tetragon-md-10,.tetragon-md-11,.tetragon-md-12{
+    width: 100% !important;
+    flex: 0 0 100%;
+    max-width: 100%!important;
+  }
+}
+
+@media (max-width: 992px) {
+  .tetragon-lg-1,.tetragon-lg-2,.tetragon-lg-3,
+  .tetragon-lg-4,.tetragon-lg-5,.tetragon-lg-6,
+  .tetragon-lg-7,.tetragon-lg-8,.tetragon-lg-9,
+  .tetragon-lg-10,.tetragon-lg-11,.tetragon-lg-12{
+    width: 100% !important;
+    flex: 0 0 100%;
+    max-width: 100%!important;
+  }
+}
+
+@media (max-width: 1200px) {
+  .tetragon-xl-1,.tetragon-xl-2,.tetragon-xl-3,
+  .tetragon-xl-4,.tetragon-xl-5,.tetragon-xl-6,
+  .tetragon-xl-7,.tetragon-xl-8,.tetragon-xl-9,
+  .tetragon-xl-10,.tetragon-xl-11,.tetragon-xl-12{
+    width: 100% !important;
+    flex: 0 0 100%;
+    max-width: 100%!important;
+  }
+}
+
+

@@ -1,0 +1,81 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="SKYPE_TOOLBAR" content="SKYPE_TOOLBAR_PARSER_COMPATIBLE">
+	<meta name="format-detection" content="telephone=no">
+	<meta http-equiv="X-UA-Compatible" content="IE=EDGE">
+	<title>Хостинг, домены и облачные сервисы в Беларуси — Active.by</title>
+	<link rel="stylesheet" href="https://old.active.by/media/css/reset.css">
+	<link rel="stylesheet" href="https://old.active.by/media/css/virtual-domains-activated.css">
+	<script src="http://old.active.by/media/js/jquery-1.5.2.min.js"></script>
+	<script src="https://old.active.by/media/js/retina.js"></script>
+	<!--[if IE]><script type='text/javascript' src='https://old.active.by//media/js/html5ie.js'></script><![endif]-->
+</head>
+<body>
+	<!--[if lte IE 7]>
+	<div class="chromeframe">
+		Ваш браузер <em>устарел!</em> <a href="http://browsehappy.com/">Установите другой браузер</a> или <a href="http://www.google.com/chromeframe/?redirect=true">Google Chrome Frame</a>, чтобы просматривать этот сайт.
+	</div>
+	<![endif]-->
+	<noscript><div class="noscript">У вас отключено выполнение сценариев Java Script. Измените, пожалуйста, настройки браузера.</div></noscript>
+	<section class="wrapper">
+		<header class="header-page">
+			<div class="header-top">
+				<div id="logo" class="logo">
+					<a href="http://www.active.by/"><img data-retina="" src="https://old.active.by/media/img/logo_active.png" width="190" height="34" alt=""></a>
+				</div>
+			</div>
+		</header>
+		<div class="website-development">
+			<div>
+				Сайт <span>vanilka.by</span><br>
+				находится в разработке
+			</div>
+		</div>
+		<footer class="footer-page">
+			<div class="footer-copyright">
+				<i class="sign">©</i>
+				<div class="top-part">
+					2003—2017 Хостинг-компания ООО «Активные технологии»<br>
+					Лицензия №01019/146. Действует бессрочно в соответствии 
+<br>с Указом № 475 от 28 ноября 2015 г., все специальные разрешения 
+<br>(лицензии), действительные на дату официального 
+<br>опубликования Указа, сроком действия не ограничены.
+<br>Свидетельство о государственной регистрации
+<br>от 21.09.2009 № 690277669
+				</div>
+			</div>
+			<div class="footer-contacts">
+				<i class="sign">+</i>
+				<div class="top-part">
+					375 17 308-22-00, +375 17 308-22-22<br>
+				    e-mail: <a href="mailto:sales@active.by">sales@active.by</a>
+				</div>
+			</div>
+			<div class="footer-address">
+				<div class="top-part">
+					ул. Кальварийская 42, 6 этаж<br>
+					Минск, Беларусь, 220073
+				</div>
+			</div>
+			<nav class="nav-footer">
+				<ul>
+					<li><a href="http://www.active.by/ru-by/company/clients/">Наши клиенты</a></li>
+					<li><a href="http://www.active.by/ru-by/tech/">Технологии</a></li>
+					<li><a href="http://www.active.by/ru-by/company/news/">Новости</a></li>
+				</ul>
+			</nav>
+			<div class="footer-social-bars">
+				<ul>
+					<li class="tw"><a href="http://twitter.com/activecloud" target="_blank"><span>3289</span><i></i></a></li>
+					<li class="gplus"><a href="https://plus.google.com/118335129241207778299" rel="author" target="_blank"><span>47</span><i></i></a></li>
+					<li class="fb"><a href="http://www.facebook.com/activecloud" target="_blank"><span>950</span><i></i></a></li>
+					<li class="vk"><a href="http://vk.com/activecloud" target="_blank"><span>410</span><i></i></a></li>
+				</ul>
+			</div>
+		</footer>
+	</section>
+</body>
+</html>
+
