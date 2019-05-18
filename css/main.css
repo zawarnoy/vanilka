@@ -945,6 +945,11 @@ a:visited {
     border-bottom: 3px solid #794a5e;
 }
 
+.choose-user-role__footer__about-us{
+    width: auto;
+    min-width: 230px;
+}
+
 .product-review__mini-gallery {
     margin-top: 2px;
     margin-bottom: 30px;
@@ -1129,6 +1134,10 @@ a:visited {
     flex-direction: column;
 }
 
+.footer__column{
+    width: 100%;
+}
+
 .vnl__footer .footer__contact-us {
     display: flex;
     flex-direction: row;
@@ -1158,10 +1167,10 @@ a:visited {
 .choose-role__wrapper {
     display: flex;
     justify-content: space-between;
-    height: 614px;
+    height: 510px;
     width: 100%;
     background: white;
-    padding: 30px;
+    padding: 10px;
 }
 
 .choose-role__button {
@@ -1171,14 +1180,14 @@ a:visited {
     justify-content: center;
     height: calc(100% - 6px);
     width: calc(50% - 2px);
-    border: 12px solid white;
     padding: 5px 0;
     text-decoration: none !important;
-    transition: border 0.3s;
+    opacity: 0.8;
+    transition: opacity 0.3s;
 }
 
 .choose-role__button:hover {
-    border: 0 solid white;
+    opacity: 1;
 }
 
 .choose-role__individual {
@@ -1389,6 +1398,29 @@ a:visited {
         grid-column: 1/2;
         grid-row: 3/4;
     }
+}
+
+
+/*styles for footer on choose__user__role.html*/
+.choose-role__footer{
+    display: flex;
+    flex-direction: row !important;
+}
+
+.choose-user-role__element {
+    flex-grow: inherit;
+}
+
+.footer-component-choose-page{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 10px 0 0 0;
+    padding: 0
+}
+
+.choose-page__footer__info{
+    margin: 0;
 }
 
 
