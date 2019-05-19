@@ -1167,7 +1167,8 @@ a:visited {
 .choose-role__wrapper {
     display: flex;
     justify-content: space-between;
-    height: 510px;
+    min-height: calc(100vh - 290px);
+    height: 480px;
     width: 100%;
     background: white;
     padding: 10px;
@@ -1178,7 +1179,7 @@ a:visited {
     flex-direction: column;
     align-items: flex-start;
     justify-content: center;
-    height: calc(100% - 6px);
+    min-height: calc(100% - 6px);
     width: calc(50% - 2px);
     padding: 5px 0;
     text-decoration: none !important;
@@ -1234,6 +1235,7 @@ a:visited {
 
     .choose-role__button {
         width: calc(100% - 10px);
+        margin-top: 10px;
     }
 }
 
@@ -1427,7 +1429,7 @@ a:visited {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    margin: 10px 0 0 0;
+    margin: 10px 0 20px 0;
     padding: 0
 }
 
