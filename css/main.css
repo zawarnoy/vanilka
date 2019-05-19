@@ -1164,6 +1164,13 @@ a:visited {
 }
 
 /*styles for choose__user__role.html*/
+.choose-role-page__wrapper{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    min-height: 755px;
+}
+
 .choose-role__wrapper {
     display: flex;
     justify-content: space-between;
@@ -1225,6 +1232,16 @@ a:visited {
 
 .choose-role__entity > span {
     top: 28px;
+}
+
+.footer-component-choose-page__wrapper{
+    display: flex;
+    flex:1;
+    flex-direction: row;
+}
+
+.choose-page__footer-second-wrapper {
+    justify-content: flex-end;
 }
 
 @media (max-width: 766px) {
@@ -1427,6 +1444,7 @@ a:visited {
 
 .footer-component-choose-page{
     display: flex;
+    justify-self: flex-end;
     flex-direction: row;
     justify-content: center;
     margin: 10px 0 20px 0;
