@@ -1164,7 +1164,7 @@ a:visited {
 }
 
 /*styles for choose__user__role.html*/
-.choose-role-page__wrapper{
+.full-page-content{
     display: flex;
     flex-direction: column;
     height: 100vh;
@@ -1234,13 +1234,13 @@ a:visited {
     top: 28px;
 }
 
-.footer-component-choose-page__wrapper{
+.footer-component__wrapper{
     display: flex;
     flex:1;
     flex-direction: row;
 }
 
-.choose-page__footer-second-wrapper {
+.footer-component-second-wrapper {
     justify-content: flex-end;
 }
 
