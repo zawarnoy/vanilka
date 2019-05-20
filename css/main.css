@@ -1289,6 +1289,8 @@ a:visited {
     font-family: Gabriola, sans-serif;
     font-size: 40px;
     color: #915570;
+    padding: 0 10%;
+    justify-content: left;
 }
 
 .entity-page__description__wrapper{
