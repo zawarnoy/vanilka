@@ -1163,7 +1163,7 @@ a:visited {
     font-size: 16px;
 }
 
-/*styles for choose__user__role.html*/
+/*styles for index.html*/
 .choose-role-page__wrapper{
     display: flex;
     flex-direction: column;
@@ -1242,6 +1242,7 @@ a:visited {
 
 .choose-page__footer-second-wrapper {
     justify-content: flex-end;
+    padding-bottom: 20px;
 }
 
 @media (max-width: 766px) {
@@ -1432,7 +1433,7 @@ a:visited {
 }
 
 
-/*styles for footer on choose__user__role.html*/
+/*styles for footer on index.html*/
 .choose-role__footer{
     display: flex;
     flex-direction: row !important;
@@ -1447,8 +1448,7 @@ a:visited {
     justify-self: flex-end;
     flex-direction: row;
     justify-content: center;
-    margin: 10px 0 20px 0;
-    padding: 0
+    padding: 0 30px;
 }
 
 .choose-page__footer__info{
