@@ -1249,10 +1249,12 @@ a:visited {
     .choose-role__wrapper {
         flex-direction: column;
         height: 1228px;
+        display: contents;
     }
 
     .choose-role__button {
         width: calc(100% - 10px);
+        min-height: 600px;
         margin-top: 10px;
     }
 }
