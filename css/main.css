@@ -1198,6 +1198,14 @@ a:visited {
     opacity: 1;
 }
 
+.entity-page__footer-component__wrapper{
+    justify-content: center;
+}
+
+.entity-page__footer-component__column{
+    flex-grow: 0;
+}
+
 .choose-role__individual {
     background: url("../img/UserRoles/individual.jpg") no-repeat center;
     background-size: cover;
@@ -1265,6 +1273,7 @@ a:visited {
 .entity-page__wrapper{
     display: flex;
     flex-direction: column;
+    min-width: 415px;
 }
 
 .entity-page__navigation{
@@ -1361,6 +1370,12 @@ a:visited {
 .tables__divider{
     height: 2px;
     background-color: #915570;
+}
+
+@media (max-width: 766px) {
+    .tables__divider{
+        margin: 10px 0 50px 0;
+    }
 }
 
 .table-details__description{
