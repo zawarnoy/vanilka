@@ -1129,9 +1129,9 @@ a:visited {
     flex-direction: row;
 }
 
-@media (max-width: 380px) {
+@media (max-width: 766px) {
     .vnl__footer {
-        margin-top: 5px;
+        margin-top: -40px;
         padding: 0 20px 10px 20px;
     }
 }
@@ -1213,9 +1213,9 @@ a:visited {
     flex-grow: 0;
 }
 
-@media (max-width: 380px) {
+@media (max-width: 415px) {
     .entity-page__footer-component__column {
-        margin-top: -15px;
+        margin-top: -30px;
     }
 }
 
@@ -1487,6 +1487,12 @@ a:visited {
 
     .footer-component__column__section-name {
         visibility: hidden;
+    }
+}
+
+@media (max-width: 415px) {
+    .hidden-sm{
+        display: none;
     }
 }
 
