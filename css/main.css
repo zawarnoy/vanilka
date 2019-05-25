@@ -1373,7 +1373,6 @@ a:visited {
     grid-row: 2/3;
     display: flex;
     flex-direction: column;
-    overflow: auto;
 }
 
 .table-details__name {
@@ -1471,10 +1470,8 @@ a:visited {
     }
 }
 
-@media (max-width: 766px) {
-    .tables__table__details-wrapper {
-        overflow: auto;
-    }
+.table__wrapper {
+    overflow: auto;
 }
 
 @media (max-width: 766px) {
