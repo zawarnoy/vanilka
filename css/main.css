@@ -1174,7 +1174,6 @@ a:visited {
 .choose-role-page__wrapper{
     display: flex;
     flex-direction: column;
-    height: 100vh;
     min-height: 755px;
 }
 
@@ -1270,11 +1269,11 @@ a:visited {
     .choose-role__wrapper {
         flex-direction: column;
         height: 1228px;
-        display: contents;
+        margin-bottom: 60px;
     }
 
     .choose-role__button {
-        width: calc(100% - 10px);
+        width: 100%;
         min-height: 600px;
         margin-top: 10px;
     }
