@@ -1175,16 +1175,17 @@ a:visited {
     display: flex;
     flex-direction: column;
     min-height: 755px;
+    background: white;
 }
 
 .choose-role__wrapper {
     display: flex;
     justify-content: space-between;
-    min-height: calc(100vh - 290px);
+    min-height: calc(100vh - 266px);
     height: 480px;
     width: 100%;
     background: white;
-    padding: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
 }
 
 .choose-role__button {
@@ -1193,7 +1194,7 @@ a:visited {
     align-items: flex-start;
     justify-content: center;
     min-height: calc(100% - 6px);
-    width: calc(50% - 2px);
+    width: 50%;
     padding: 5px 0;
     text-decoration: none !important;
     opacity: 0.8;
@@ -1268,14 +1269,13 @@ a:visited {
 @media (max-width: 766px) {
     .choose-role__wrapper {
         flex-direction: column;
-        height: 1228px;
+        height: 1200px;
         margin-bottom: 60px;
     }
 
     .choose-role__button {
         width: 100%;
         min-height: 600px;
-        margin-top: 10px;
     }
 }
 
