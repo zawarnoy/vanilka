@@ -1,4 +1,9 @@
 <?php
+
+use PHPMailer\PHPMailer\PHPMailer;
+
+require $_SERVER['DOCUMENT_ROOT'] . '/vendor/autoload.php';
+
 $basedir = realpath('./../');
 $COMPONENT_LIST[] = 'ComponentTaste';
 $COMPONENT_LIST[] = 'ComponentAdditionalStuffing';
@@ -12,11 +17,12 @@ $boundary = "--".md5(uniqid(time()));
 $mailheaders =  "MIME-Version: 1.0;\r\n";
 $mailheaders .= "Content-Type: multipart/related; boundary=\"$boundary\"\r\n";
 $mailheaders .= "From: <orderbot@vanilka.by>\r\n";
-$mailheaders .= "To: vanilka.by@yandex.by\r\n";
+$mailheaders .= "To: zawarnoy@gmail.com\r\n";
 
 if( isset($_POST['personData']) ) {
   $personInfo = json_decode($_POST['personData']);
-  $common = "";
+  $common = '';
+  $common .= $subject . '<br>';
   $common .= 'Клиент: <br>';
   $common .= 'Фамилия: '. $personInfo -> lastName .'<br/>';
   $common .= 'Имя: '. $personInfo -> firstName .'<br/>';
@@ -46,6 +52,7 @@ if( isset($_POST['orderData']) ){
   if ( isNotificationSpecified($orderData) )
     $taste .= prepareComponentNotificationResponse($orderData -> $COMPONENT_LIST[5]);
 }
+
 $multipart = "--$boundary\r\n";
 $multipart .= "Content-Type: text/html; charset=utf-8\r\n";
 $multipart .= "Content-Transfer-Encoding: 8bit\r\n";
@@ -53,11 +60,32 @@ $multipart .= "\r\n";
 $multipart .= $common ." ". $taste;
 $multipart .= getAttachments($orderData -> $COMPONENT_LIST[4],$boundary);//$message_part;
 
-if(mail("postbox4you@inbox.ru", $subject, $multipart, $mailheaders)){
-  echo "<center>".$subject."</center>";
-        //.$body;
-}else{
-  echo "<center>Заказ не сформирован, приносим извинения</center>";
+try {
+    $mail = new PhpMailer(true);
+
+    $mail->SMTPDebug = 4;
+    $mail->isSMTP();
+    $mail->Host = gethostbyname('smtp.gmail.com');
+    $mail->SMTPAuth = true;
+    $mail->Username = 'vladdemidik@gmail.com';
+    $mail->Password = '61199035';
+    $mail->SMTPSecure = 'ssl';
+    $mail->Timeout = 10;
+    $mail->Port = 465;
+
+    $mail->setFrom('vladdemidik@gmail.com');
+    $mail->addAddress('zawarnoy@gmail.com');
+
+    $mail->CharSet = 'UTF-8';
+    $mail->isHTML(true);
+    $mail->Subject = $subject;
+    $mail->Body = $multipart;
+    $mail->send();
+
+    echo "<center>".$subject."</center>";
+
+} catch (Exception $e) {
+    echo "<center>Заказ не сформирован, приносим извинения</center>";
 }
 
 
@@ -251,7 +279,7 @@ function getAttachments($componentData){
  */
 function prepareComponentNotificationResponse($componentData){
   $result = 'Комментарий к заказу: <br/>';
-  return $result .= $componentData;
+  return $result . $componentData;
 }
 
 /**
@@ -270,5 +298,3 @@ function is_base64_encoded($data){
 function is_self_image($data){
   return stripos($data,'img/') !== false;
 }
-
-?>
